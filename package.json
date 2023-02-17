@@ -1,0 +1,31 @@
+{
+  "name": "random-password-generator",
+  "version": "1.0.0",
+  "description": "This is a random secure password generator tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saurabhdixit93/project.git"
+  },
+  "keywords": [
+    "random-password-generator-tool"
+  ],
+  "author": "Saurabh Dixit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saurabhdixit93/project/issues"
+  },
+  "homepage": "https://github.com/Saurabhdixit93/project#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-flash": "^0.0.2",
+    "mongoose": "^6.9.2",
+    "nodemon": "^2.0.20"
+  }
+}
